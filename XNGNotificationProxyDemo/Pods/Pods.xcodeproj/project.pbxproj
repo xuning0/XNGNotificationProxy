@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0393CFC84F17978E80837709E15A2D57 /* Pods-XNGNotificationProxyDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2754BC87CB5A46CE52D81CB9FD776078 /* Pods-XNGNotificationProxyDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111B73570150CB08D956927D06D4271F /* Pods-XNGNotificationProxyDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56291B1B4D7A0E184B0011413A1A1905 /* Pods-XNGNotificationProxyDemo-dummy.m */; };
+		350D1204FC5F39A7B5851D6A8938D7B4 /* XNGNotificationProxy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D298FC9B5B4F0F68940094ED1F909C /* XNGNotificationProxy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468DE8A9E2E91CAB6162F50DA69C0245 /* XNGNotificationProxy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121F67638DD69AB868996765161B0E16 /* XNGNotificationProxy-dummy.m */; };
+		4DDC8EC82C2B3FFBD7F6ECE3D376C681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5231AC7F1C964D6C92274FB5CC8A4456 /* XNGNotificationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F23586CDE681B52334F235348BC2E972 /* XNGNotificationProxy.m */; };
+		A362880C917978BCCB450D16D2AD85AE /* XNGNotificationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A4787D7719A6CC59DA9BB6A96CE354 /* XNGNotificationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A464471FC28AB77EFE47718143A4656D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6F7DB889897EF7B1155FE8B0B23FD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F325CC48F2BA8FED41D33861D24681D0;
+			remoteInfo = XNGNotificationProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010CE4145257106BCF2374FE443C0CC /* Pods-XNGNotificationProxyDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNGNotificationProxyDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AA1D0F1B95AC8DADE7EDF8FEED32389 /* XNGNotificationProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XNGNotificationProxy.framework; path = XNGNotificationProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		121F67638DD69AB868996765161B0E16 /* XNGNotificationProxy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XNGNotificationProxy-dummy.m"; sourceTree = "<group>"; };
+		18D298FC9B5B4F0F68940094ED1F909C /* XNGNotificationProxy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNGNotificationProxy-umbrella.h"; sourceTree = "<group>"; };
+		2754BC87CB5A46CE52D81CB9FD776078 /* Pods-XNGNotificationProxyDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XNGNotificationProxyDemo-umbrella.h"; sourceTree = "<group>"; };
+		32E24A5C3ABAD46780842B101FA3D9B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3BA6C4821B85ED811ABFAA25E67401F9 /* Pods-XNGNotificationProxyDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNGNotificationProxyDemo-resources.sh"; sourceTree = "<group>"; };
+		4F5C217AF1014DFBB574EE92D5C0B9A5 /* Pods-XNGNotificationProxyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNGNotificationProxyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		50F04BE3107442F53ABB8EF2BA303E0C /* Pods-XNGNotificationProxyDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNGNotificationProxyDemo-frameworks.sh"; sourceTree = "<group>"; };
+		56291B1B4D7A0E184B0011413A1A1905 /* Pods-XNGNotificationProxyDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNGNotificationProxyDemo-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FEA87983759D2A70C6CD10249C22736 /* Pods-XNGNotificationProxyDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNGNotificationProxyDemo.modulemap"; sourceTree = "<group>"; };
+		69D726C7F1A3F13047FAA7009BDD79FC /* Pods_XNGNotificationProxyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XNGNotificationProxyDemo.framework; path = "Pods-XNGNotificationProxyDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BBC87870FB949E4F46C798BDB3849BF /* XNGNotificationProxy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNGNotificationProxy.xcconfig; sourceTree = "<group>"; };
+		9EFDEBCC7C36FDB44B6FE7B83C7B4BF5 /* XNGNotificationProxy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNGNotificationProxy-prefix.pch"; sourceTree = "<group>"; };
+		A111E47D4C0330737734770C9ECB3C4D /* Pods-XNGNotificationProxyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNGNotificationProxyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A627100BA2A2A48E6054EA63FF0D8445 /* XNGNotificationProxy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XNGNotificationProxy.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B14265D4F6940E9BAE0AB81999F6967E /* XNGNotificationProxy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XNGNotificationProxy.modulemap; sourceTree = "<group>"; };
+		BF204D1136ECB3A0C5850CF529F2F3BC /* Pods-XNGNotificationProxyDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNGNotificationProxyDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3461D03F9159DE3FFE653551A7B01CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A4787D7719A6CC59DA9BB6A96CE354 /* XNGNotificationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XNGNotificationProxy.h; path = XNGNotificationProxy/XNGNotificationProxy.h; sourceTree = "<group>"; };
+		E16519C74C2022B917C4384C6D97AB91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EBBACD78C855E9AAB6EECE0BCA3CABF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23586CDE681B52334F235348BC2E972 /* XNGNotificationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNGNotificationProxy.m; path = XNGNotificationProxy/XNGNotificationProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1F42C20E1CCFEEB1B31A3905AC871D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDC8EC82C2B3FFBD7F6ECE3D376C681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1B40165DD309A362D41C177424F000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464471FC28AB77EFE47718143A4656D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DEC2E7A062CA19867C1D4FC4A0F618 /* XNGNotificationProxy */ = {
+			isa = PBXGroup;
+			children = (
+				D9A4787D7719A6CC59DA9BB6A96CE354 /* XNGNotificationProxy.h */,
+				F23586CDE681B52334F235348BC2E972 /* XNGNotificationProxy.m */,
+				8A7F5E037F94750CB3138A1F5C980D47 /* Pod */,
+				5CF2333BED12C87B2E583C08F4772F2D /* Support Files */,
+			);
+			name = XNGNotificationProxy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3789CA82CB6ABF552F2AF3CE33182784 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC85B38BBA00E0B8CE040DD446F36B52 /* Pods-XNGNotificationProxyDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CF2333BED12C87B2E583C08F4772F2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3461D03F9159DE3FFE653551A7B01CB /* Info.plist */,
+				B14265D4F6940E9BAE0AB81999F6967E /* XNGNotificationProxy.modulemap */,
+				9BBC87870FB949E4F46C798BDB3849BF /* XNGNotificationProxy.xcconfig */,
+				121F67638DD69AB868996765161B0E16 /* XNGNotificationProxy-dummy.m */,
+				9EFDEBCC7C36FDB44B6FE7B83C7B4BF5 /* XNGNotificationProxy-prefix.pch */,
+				18D298FC9B5B4F0F68940094ED1F909C /* XNGNotificationProxy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "XNGNotificationProxyDemo/Pods/Target Support Files/XNGNotificationProxy";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FFACE748A2DD6E28C2146B03593C9AA5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB4CE25E89446582FDEB84451A1E52B5 /* Products */,
+				3789CA82CB6ABF552F2AF3CE33182784 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A7F5E037F94750CB3138A1F5C980D47 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E16519C74C2022B917C4384C6D97AB91 /* LICENSE */,
+				32E24A5C3ABAD46780842B101FA3D9B0 /* README.md */,
+				A627100BA2A2A48E6054EA63FF0D8445 /* XNGNotificationProxy.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB4CE25E89446582FDEB84451A1E52B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D726C7F1A3F13047FAA7009BDD79FC /* Pods_XNGNotificationProxyDemo.framework */,
+				0AA1D0F1B95AC8DADE7EDF8FEED32389 /* XNGNotificationProxy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC85B38BBA00E0B8CE040DD446F36B52 /* Pods-XNGNotificationProxyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EBBACD78C855E9AAB6EECE0BCA3CABF0 /* Info.plist */,
+				5FEA87983759D2A70C6CD10249C22736 /* Pods-XNGNotificationProxyDemo.modulemap */,
+				0010CE4145257106BCF2374FE443C0CC /* Pods-XNGNotificationProxyDemo-acknowledgements.markdown */,
+				BF204D1136ECB3A0C5850CF529F2F3BC /* Pods-XNGNotificationProxyDemo-acknowledgements.plist */,
+				56291B1B4D7A0E184B0011413A1A1905 /* Pods-XNGNotificationProxyDemo-dummy.m */,
+				50F04BE3107442F53ABB8EF2BA303E0C /* Pods-XNGNotificationProxyDemo-frameworks.sh */,
+				3BA6C4821B85ED811ABFAA25E67401F9 /* Pods-XNGNotificationProxyDemo-resources.sh */,
+				2754BC87CB5A46CE52D81CB9FD776078 /* Pods-XNGNotificationProxyDemo-umbrella.h */,
+				4F5C217AF1014DFBB574EE92D5C0B9A5 /* Pods-XNGNotificationProxyDemo.debug.xcconfig */,
+				A111E47D4C0330737734770C9ECB3C4D /* Pods-XNGNotificationProxyDemo.release.xcconfig */,
+			);
+			name = "Pods-XNGNotificationProxyDemo";
+			path = "Target Support Files/Pods-XNGNotificationProxyDemo";
+			sourceTree = "<group>";
+		};
+		FFACE748A2DD6E28C2146B03593C9AA5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14DEC2E7A062CA19867C1D4FC4A0F618 /* XNGNotificationProxy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A87F0DF6A16F32DAEA743BCBE714FC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350D1204FC5F39A7B5851D6A8938D7B4 /* XNGNotificationProxy-umbrella.h in Headers */,
+				A362880C917978BCCB450D16D2AD85AE /* XNGNotificationProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D325DA5797559C9F55AECCE569549EE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0393CFC84F17978E80837709E15A2D57 /* Pods-XNGNotificationProxyDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DAC63919A3FD0D91D100E1C838C50BA8 /* Pods-XNGNotificationProxyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5FC3A6D50FB7E0FF93CF83A5FEF225 /* Build configuration list for PBXNativeTarget "Pods-XNGNotificationProxyDemo" */;
+			buildPhases = (
+				D325DA5797559C9F55AECCE569549EE0 /* Headers */,
+				A2BC4EE3857A9F1DE07C28C7D946E280 /* Sources */,
+				3B1F42C20E1CCFEEB1B31A3905AC871D /* Frameworks */,
+				B81E1C8BBE73E5013DCF45D903512027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37FD34B6E0A7EDBAD3FC415CA5FD584 /* PBXTargetDependency */,
+			);
+			name = "Pods-XNGNotificationProxyDemo";
+			productName = "Pods-XNGNotificationProxyDemo";
+			productReference = 69D726C7F1A3F13047FAA7009BDD79FC /* Pods_XNGNotificationProxyDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F325CC48F2BA8FED41D33861D24681D0 /* XNGNotificationProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E4DBE626CA71EFA86033A4FD0111F9 /* Build configuration list for PBXNativeTarget "XNGNotificationProxy" */;
+			buildPhases = (
+				2A87F0DF6A16F32DAEA743BCBE714FC8 /* Headers */,
+				719D49050D07E02AB74BFFC0B7CEC77F /* Sources */,
+				3D1B40165DD309A362D41C177424F000 /* Frameworks */,
+				84F6220695C73B43296CA5CD4217E189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XNGNotificationProxy;
+			productName = XNGNotificationProxy;
+			productReference = 0AA1D0F1B95AC8DADE7EDF8FEED32389 /* XNGNotificationProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB4CE25E89446582FDEB84451A1E52B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC63919A3FD0D91D100E1C838C50BA8 /* Pods-XNGNotificationProxyDemo */,
+				F325CC48F2BA8FED41D33861D24681D0 /* XNGNotificationProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F6220695C73B43296CA5CD4217E189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B81E1C8BBE73E5013DCF45D903512027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719D49050D07E02AB74BFFC0B7CEC77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468DE8A9E2E91CAB6162F50DA69C0245 /* XNGNotificationProxy-dummy.m in Sources */,
+				5231AC7F1C964D6C92274FB5CC8A4456 /* XNGNotificationProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BC4EE3857A9F1DE07C28C7D946E280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111B73570150CB08D956927D06D4271F /* Pods-XNGNotificationProxyDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B37FD34B6E0A7EDBAD3FC415CA5FD584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XNGNotificationProxy;
+			target = F325CC48F2BA8FED41D33861D24681D0 /* XNGNotificationProxy */;
+			targetProxy = A6F7DB889897EF7B1155FE8B0B23FD89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		635844B50B75679E208A05FD88442F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBC87870FB949E4F46C798BDB3849BF /* XNGNotificationProxy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNGNotificationProxy/XNGNotificationProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNGNotificationProxy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XNGNotificationProxy/XNGNotificationProxy.modulemap";
+				PRODUCT_MODULE_NAME = XNGNotificationProxy;
+				PRODUCT_NAME = XNGNotificationProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C57BCDECE14849E004F47323E5E165F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5C217AF1014DFBB574EE92D5C0B9A5 /* Pods-XNGNotificationProxyDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNGNotificationProxyDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E741E05E833D8292E109CD86559DE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A111E47D4C0330737734770C9ECB3C4D /* Pods-XNGNotificationProxyDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNGNotificationProxyDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA9EEBE31CE46501908E75CE7C12F0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBC87870FB949E4F46C798BDB3849BF /* XNGNotificationProxy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNGNotificationProxy/XNGNotificationProxy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNGNotificationProxy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XNGNotificationProxy/XNGNotificationProxy.modulemap";
+				PRODUCT_MODULE_NAME = XNGNotificationProxy;
+				PRODUCT_NAME = XNGNotificationProxy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E4DBE626CA71EFA86033A4FD0111F9 /* Build configuration list for PBXNativeTarget "XNGNotificationProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9EEBE31CE46501908E75CE7C12F0D7 /* Debug */,
+				635844B50B75679E208A05FD88442F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5FC3A6D50FB7E0FF93CF83A5FEF225 /* Build configuration list for PBXNativeTarget "Pods-XNGNotificationProxyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C57BCDECE14849E004F47323E5E165F /* Debug */,
+				9E741E05E833D8292E109CD86559DE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

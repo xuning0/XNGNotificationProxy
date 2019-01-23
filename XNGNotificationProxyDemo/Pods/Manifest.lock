@@ -1,0 +1,16 @@
+PODS:
+  - XNGNotificationProxy (1.0)
+
+DEPENDENCIES:
+  - XNGNotificationProxy (from `..`)
+
+EXTERNAL SOURCES:
+  XNGNotificationProxy:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  XNGNotificationProxy: 746998e2e0d0b55f6ad825197b6ec12aebe11ceb
+
+PODFILE CHECKSUM: 2a37536700d33c5101136eb7474edbd371fa61c1
+
+COCOAPODS: 1.5.3

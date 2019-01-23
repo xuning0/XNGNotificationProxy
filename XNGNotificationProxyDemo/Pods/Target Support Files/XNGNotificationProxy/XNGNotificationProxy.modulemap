@@ -1,0 +1,6 @@
+framework module XNGNotificationProxy {
+  umbrella header "XNGNotificationProxy-umbrella.h"
+
+  export *
+  module * { export * }
+}

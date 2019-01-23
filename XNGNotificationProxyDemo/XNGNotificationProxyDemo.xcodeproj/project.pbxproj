@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775131F16E92BB36C5A15BF0 /* Pods_XNGNotificationProxyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7541C07A0F3E0F9035FA3F /* Pods_XNGNotificationProxyDemo.framework */; };
+		79653C3521F6C7E800D8A4DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79653C3421F6C7E800D8A4DF /* AppDelegate.m */; };
+		79653C3821F6C7E800D8A4DF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79653C3721F6C7E800D8A4DF /* FirstViewController.m */; };
+		79653C3B21F6C7E800D8A4DF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79653C3A21F6C7E800D8A4DF /* SecondViewController.m */; };
+		79653C3E21F6C7E800D8A4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79653C3C21F6C7E800D8A4DF /* Main.storyboard */; };
+		79653C4021F6C7E900D8A4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79653C3F21F6C7E900D8A4DF /* Assets.xcassets */; };
+		79653C4321F6C7E900D8A4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79653C4121F6C7E900D8A4DF /* LaunchScreen.storyboard */; };
+		79653C4621F6C7E900D8A4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79653C4521F6C7E900D8A4DF /* main.m */; };
+		79653C5521F70C3700D8A4DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79653C5421F70C3700D8A4DF /* LoginViewController.swift */; };
+		79653C5B21F71B9D00D8A4DF /* AnotherUserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79653C5A21F71B9D00D8A4DF /* AnotherUserDetailViewController.swift */; };
+		79653C5E21F8985800D8A4DF /* XNGNotificationProxy+Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 79653C5D21F8985800D8A4DF /* XNGNotificationProxy+Protocol.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A870AEF484604C1438D4283 /* Pods-XNGNotificationProxyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNGNotificationProxyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3AC94CEE7124ECA058B8CE21 /* Pods-XNGNotificationProxyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNGNotificationProxyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		79653C3021F6C7E800D8A4DF /* XNGNotificationProxyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XNGNotificationProxyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79653C3321F6C7E800D8A4DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79653C3421F6C7E800D8A4DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79653C3621F6C7E800D8A4DF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		79653C3721F6C7E800D8A4DF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		79653C3921F6C7E800D8A4DF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		79653C3A21F6C7E800D8A4DF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		79653C3D21F6C7E800D8A4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79653C3F21F6C7E900D8A4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79653C4221F6C7E900D8A4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79653C4421F6C7E900D8A4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79653C4521F6C7E900D8A4DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79653C5121F70AE400D8A4DF /* XNGNotificationProxyDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XNGNotificationProxyDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		79653C5421F70C3700D8A4DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		79653C5A21F71B9D00D8A4DF /* AnotherUserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherUserDetailViewController.swift; sourceTree = "<group>"; };
+		79653C5C21F8985800D8A4DF /* XNGNotificationProxy+Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XNGNotificationProxy+Protocol.h"; sourceTree = "<group>"; };
+		79653C5D21F8985800D8A4DF /* XNGNotificationProxy+Protocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XNGNotificationProxy+Protocol.m"; sourceTree = "<group>"; };
+		EA7541C07A0F3E0F9035FA3F /* Pods_XNGNotificationProxyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XNGNotificationProxyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79653C2D21F6C7E800D8A4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775131F16E92BB36C5A15BF0 /* Pods_XNGNotificationProxyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252DE16BB2DADE6A5384FF4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A870AEF484604C1438D4283 /* Pods-XNGNotificationProxyDemo.debug.xcconfig */,
+				3AC94CEE7124ECA058B8CE21 /* Pods-XNGNotificationProxyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B05DFFBFE39C7B17114290E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7541C07A0F3E0F9035FA3F /* Pods_XNGNotificationProxyDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79653C2721F6C7E800D8A4DF = {
+			isa = PBXGroup;
+			children = (
+				79653C3221F6C7E800D8A4DF /* XNGNotificationProxyDemo */,
+				79653C3121F6C7E800D8A4DF /* Products */,
+				252DE16BB2DADE6A5384FF4A /* Pods */,
+				5B05DFFBFE39C7B17114290E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79653C3121F6C7E800D8A4DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79653C3021F6C7E800D8A4DF /* XNGNotificationProxyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79653C3221F6C7E800D8A4DF /* XNGNotificationProxyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				79653C3321F6C7E800D8A4DF /* AppDelegate.h */,
+				79653C3421F6C7E800D8A4DF /* AppDelegate.m */,
+				79653C5C21F8985800D8A4DF /* XNGNotificationProxy+Protocol.h */,
+				79653C5D21F8985800D8A4DF /* XNGNotificationProxy+Protocol.m */,
+				79653C3621F6C7E800D8A4DF /* FirstViewController.h */,
+				79653C3721F6C7E800D8A4DF /* FirstViewController.m */,
+				79653C3921F6C7E800D8A4DF /* SecondViewController.h */,
+				79653C3A21F6C7E800D8A4DF /* SecondViewController.m */,
+				79653C5421F70C3700D8A4DF /* LoginViewController.swift */,
+				79653C5A21F71B9D00D8A4DF /* AnotherUserDetailViewController.swift */,
+				79653C3C21F6C7E800D8A4DF /* Main.storyboard */,
+				79653C3F21F6C7E900D8A4DF /* Assets.xcassets */,
+				79653C4121F6C7E900D8A4DF /* LaunchScreen.storyboard */,
+				79653C4421F6C7E900D8A4DF /* Info.plist */,
+				79653C4521F6C7E900D8A4DF /* main.m */,
+				79653C5121F70AE400D8A4DF /* XNGNotificationProxyDemo-Bridging-Header.h */,
+			);
+			path = XNGNotificationProxyDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79653C2F21F6C7E800D8A4DF /* XNGNotificationProxyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79653C4921F6C7E900D8A4DF /* Build configuration list for PBXNativeTarget "XNGNotificationProxyDemo" */;
+			buildPhases = (
+				58AC5C67207B8E92D356D9EE /* [CP] Check Pods Manifest.lock */,
+				79653C2C21F6C7E800D8A4DF /* Sources */,
+				79653C2D21F6C7E800D8A4DF /* Frameworks */,
+				79653C2E21F6C7E800D8A4DF /* Resources */,
+				E5FD5401B430003CD3461F23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XNGNotificationProxyDemo;
+			productName = XNGNotificationProxyDemo;
+			productReference = 79653C3021F6C7E800D8A4DF /* XNGNotificationProxyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79653C2821F6C7E800D8A4DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xuning;
+				TargetAttributes = {
+					79653C2F21F6C7E800D8A4DF = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 79653C2B21F6C7E800D8A4DF /* Build configuration list for PBXProject "XNGNotificationProxyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79653C2721F6C7E800D8A4DF;
+			productRefGroup = 79653C3121F6C7E800D8A4DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79653C2F21F6C7E800D8A4DF /* XNGNotificationProxyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79653C2E21F6C7E800D8A4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79653C4321F6C7E900D8A4DF /* LaunchScreen.storyboard in Resources */,
+				79653C4021F6C7E900D8A4DF /* Assets.xcassets in Resources */,
+				79653C3E21F6C7E800D8A4DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58AC5C67207B8E92D356D9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XNGNotificationProxyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FD5401B430003CD3461F23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XNGNotificationProxy/XNGNotificationProxy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XNGNotificationProxy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79653C2C21F6C7E800D8A4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79653C5B21F71B9D00D8A4DF /* AnotherUserDetailViewController.swift in Sources */,
+				79653C5521F70C3700D8A4DF /* LoginViewController.swift in Sources */,
+				79653C3B21F6C7E800D8A4DF /* SecondViewController.m in Sources */,
+				79653C3521F6C7E800D8A4DF /* AppDelegate.m in Sources */,
+				79653C4621F6C7E900D8A4DF /* main.m in Sources */,
+				79653C5E21F8985800D8A4DF /* XNGNotificationProxy+Protocol.m in Sources */,
+				79653C3821F6C7E800D8A4DF /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79653C3C21F6C7E800D8A4DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79653C3D21F6C7E800D8A4DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79653C4121F6C7E900D8A4DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79653C4221F6C7E900D8A4DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79653C4721F6C7E900D8A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79653C4821F6C7E900D8A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79653C4A21F6C7E900D8A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A870AEF484604C1438D4283 /* Pods-XNGNotificationProxyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XNGNotificationProxyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuning.XNGNotificationProxyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XNGNotificationProxyDemo/XNGNotificationProxyDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79653C4B21F6C7E900D8A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC94CEE7124ECA058B8CE21 /* Pods-XNGNotificationProxyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XNGNotificationProxyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuning.XNGNotificationProxyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XNGNotificationProxyDemo/XNGNotificationProxyDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79653C2B21F6C7E800D8A4DF /* Build configuration list for PBXProject "XNGNotificationProxyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79653C4721F6C7E900D8A4DF /* Debug */,
+				79653C4821F6C7E900D8A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79653C4921F6C7E900D8A4DF /* Build configuration list for PBXNativeTarget "XNGNotificationProxyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79653C4A21F6C7E900D8A4DF /* Debug */,
+				79653C4B21F6C7E900D8A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79653C2821F6C7E800D8A4DF /* Project object */;
+}
