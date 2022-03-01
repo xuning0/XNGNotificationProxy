@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XNGNotificationProxy"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "A replacement of custom NSNotification using NSProxy."
   s.homepage     = "https://github.com/xuning0/XNGNotificationProxy"
   s.license      = "MIT"
