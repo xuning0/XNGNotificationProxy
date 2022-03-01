@@ -24,7 +24,7 @@
     dispatch_once(&onceToken, ^{
         proxy = [XNGNotificationProxy alloc];
         proxy.methodDictionary = [NSMutableDictionary dictionary];
-        proxy.modificationQueue = dispatch_queue_create("com.notificationProxy.modification", DISPATCH_QUEUE_SERIAL);
+        proxy.modificationQueue = dispatch_queue_create("com.notificationProxy.modification", DISPATCH_QUEUE_CONCURRENT);
     });
     return proxy;
 }
@@ -34,16 +34,16 @@
     NSParameterAssert(obj);
     NSAssert([obj conformsToProtocol:protocol], @"object %@ does not conform to protocol: %@", obj, protocol);
     NSArray *methodNames = [XNGNotificationProxy getAllMethodNamesInProtocol:protocol];
-    for (NSString *name in methodNames) {
-        dispatch_sync(self.modificationQueue, ^{
+    dispatch_barrier_async(self.modificationQueue, ^{
+        for (NSString *name in methodNames) {
             NSHashTable *hashTable = self.methodDictionary[name];
             if (!hashTable.anyObject) {
                 hashTable = [NSHashTable weakObjectsHashTable];
             }
             [hashTable addObject:obj];
             self.methodDictionary[name] = hashTable;
-        });
-    }
+        }
+    });
 }
 
 #pragma mark - Override Method
