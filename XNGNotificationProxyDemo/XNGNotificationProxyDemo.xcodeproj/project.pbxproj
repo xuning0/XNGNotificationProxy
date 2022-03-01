@@ -146,7 +146,7 @@
 				TargetAttributes = {
 					79653C2F21F6C7E800D8A4DF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -210,20 +210,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XNGNotificationProxy/XNGNotificationProxy.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XNGNotificationProxy.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XNGNotificationProxyDemo/Pods-XNGNotificationProxyDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -394,7 +389,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XNGNotificationProxyDemo/XNGNotificationProxyDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -415,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuning.XNGNotificationProxyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XNGNotificationProxyDemo/XNGNotificationProxyDemo-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
